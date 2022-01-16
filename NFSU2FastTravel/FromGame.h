@@ -44,6 +44,9 @@ struct UnlockedTriggerZone {
 		// +0x34 - vector3int mb pos
 	}
 	*/
+	void *CareerEventData;			// +0x4
+	void *ShopDataDesc;			// +0x8
+	void *ShowcaseData;			// +0xC
 };
 
 
